@@ -20,7 +20,6 @@ public class FrameTest {
 	public void intentoTest() {
 		Frame fr= new Frame();
 		fr.sumarPuntaje(3,5);
-		fr.sumarPuntaje(6,7);
-		assertEquals(21,fr.getPuntos());
+		assertEquals(8,fr.getPuntos());
 	}
 }
